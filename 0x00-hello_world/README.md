@@ -1,0 +1,1 @@
+this scripts is about C 
