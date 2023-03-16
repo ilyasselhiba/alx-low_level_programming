@@ -1,18 +1,13 @@
 #include <stdio.h>
-	/**
-	* main - Prints out a string to stdout.
-	* Return : 0 (Succes)
-	*/
-	int main(void) {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float f;
-	printf("Size of a char: %lu byte(s) \n", (unsigned long)sizeof(a));
-	printf("Size of an int: %lu byte(s) \n", (unsigned long)sizeof(b));
-	printf("Size of a long int: %lu byte(s) \n", (unsigned long)sizeof(c));
-	printf("Size of a clong long int: %lu byte(s) \n", (unsigned long)sizeof(d));
-	printf("Size of a float: %lu byte(s) \n", (unsigned long)sizeof(f));
-	return (0);
-	}
+
+int main() {
+    printf("The size of char is %lu bytes\n", sizeof(char));
+    printf("The size of short is %lu bytes\n", sizeof(short));
+    printf("The size of int is %lu bytes\n", sizeof(int));
+    printf("The size of long is %lu bytes\n", sizeof(long));
+    printf("The size of long long is %lu bytes\n", sizeof(long long));
+    printf("The size of float is %lu bytes\n", sizeof(float));
+    printf("The size of double is %lu bytes\n", sizeof(double));
+    printf("The size of long double is %lu bytes\n", sizeof(long double));
+    return 0;
+}
