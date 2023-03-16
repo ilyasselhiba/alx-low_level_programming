@@ -1,13 +1,2 @@
-#include <stdio.h>
-
-int main() {
-    printf("The size of char is %lu bytes\n", sizeof(char));
-    printf("The size of short is %lu bytes\n", sizeof(short));
-    printf("The size of int is %lu bytes\n", sizeof(int));
-    printf("The size of long is %lu bytes\n", sizeof(long));
-    printf("The size of long long is %lu bytes\n", sizeof(long long));
-    printf("The size of float is %lu bytes\n", sizeof(float));
-    printf("The size of double is %lu bytes\n", sizeof(double));
-    printf("The size of long double is %lu bytes\n", sizeof(long double));
-    return 0;
-}
+#!/bin/bash
+#include <stdio.h> int main() { printf("char:%zu,short:%zu,int:%zu,long:%zu,long long:%zu,float:%zu,double:%zu,long double:%zu",sizeof(char),sizeof(short),sizeof(int),sizeof(long),sizeof(long long),sizeof(float),sizeof(double),sizeof(long double)); return 0; }
