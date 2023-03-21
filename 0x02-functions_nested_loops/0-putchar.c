@@ -1,10 +1,11 @@
 #include <unistd.h>
+/*this is an variable*/
+int _putchar(char c);
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-int _putchar(char c);
 int main(void)
 {
 char c = '_';
