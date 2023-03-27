@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#define PASSWORD_LENGTH 6
 srand(time(0));
 while (sum < 2772)
 {
