@@ -1,9 +1,9 @@
 #include "main.h"
-
 /**
- * l - Converts a string to an integer.
- * @s: The string to be converted.
- * Return: The integer value of the converted string.
+ * Convert a string representing an integer to an integer value.
+ * 
+ * @param str The string to convert.
+ * @return The integer value represented by the string.
  */
 int _atoi(char *s)
 {
