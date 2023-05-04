@@ -1,23 +1,23 @@
 #include "main.h"
 /**
- * binary_to_uint - converts a bin num to unsigned int yh
- * @b: string containing bin num
- * Return: converted num
+ * binary_to_uint - converts a binary num to unsigned int
+ * @b: string containing the bin num
+ * Return: the converted num
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int lo;
-	unsigned int dec_value = 0;
+	int j;
+	unsigned int dec_val = 0;
 
 	if (!b)
 		return (0);
 
-	for (lo = 0; b[lo]; lo++)
+	for (j = 0; b[j]; j++)
 	{
-		if (b[lo] < '0' || b[lo] > '1')
+		if (b[j] < '0' || b[j] > '1')
 			return (0);
-	alue = 2 *alue + (b[lo] - '0');
+		dec_val = 2 * dec_val + (b[j] - '0');
 	}
 
-	return alue);
+	return (dec_val);
 }
